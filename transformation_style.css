@@ -1,0 +1,30 @@
+div{
+    color : violet;
+    height: 5vh;
+    width: 5vh;
+    font-size: 2vh;
+    background-color :indigo;
+    padding: 1vh;
+    margin: 1vh;
+}
+.box1 {
+    transform: skew(30deg,10deg);
+}
+.box2 {
+    transform: rotate(30deg);
+}
+.box3 {
+    transform: rotateX(75deg);
+}
+.box4{
+    transform: rotateY(60deg);
+}
+.box5{
+    transform: scale(1.5);
+}
+.box6{
+    transform: translateY(100px);
+}
+.box7{
+    transform: translate(200px);
+}

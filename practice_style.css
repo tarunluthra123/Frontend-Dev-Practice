@@ -1,0 +1,30 @@
+ol>li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+body {
+    color:black;
+    background-color: gray;
+    font-size: large;
+}
+#hidden1 {
+    display: none;
+}
+#hovertext1:hover #hidden1{
+    display: block;
+} 
+#hidden2 {
+    display: none;
+}
+#hovertext2:hover #hidden2{
+    display: block;
+}
+.box:active{
+    background-color: brown;
+}
+input[type="text"]:focus{
+    font-size: 50pt;
+}
+input[type="number"]:focus{
+    background-color: gold;
+}
